@@ -38,21 +38,56 @@ resource "google_storage_bucket" "football-bucket" {
   }
 }
 
-resource "google_bigquery_dataset" "football_dataset" {
+resource "google_bigquery_dataset" "footbal_stadium_dataset" {
   dataset_id = var.bq_dataset_id
   location   = var.location
 }
 
-resource "google_bigquery_table" "football_dataset" {
+resource "google_bigquery_table" "footbal_stadium_dataset" {
   dataset_id          = var.bq_dataset_id
   table_id            = "stadiums"
   deletion_protection = false
   schema              = <<EOF
     [
         {
-            "name": "test",
-            "type" : "STRING",
-            "description" : "This is a test table"
+            "name": "rank",
+            "type" : "INTEGER"
+        },
+        {
+            "name": "stadium",
+            "type" : "STRING"
+        },
+        {
+            "name": "description",
+            "type" : "STRING"
+        },
+        {
+            "name": "capacity",
+            "type" : "INTEGER"
+        },
+        {
+            "name": "region",
+            "type" : "STRING"
+        },
+        {
+            "name": "country",
+            "type" : "STRING"
+        },
+        {
+            "name": "city",
+            "type" : "STRING"
+        },
+        {
+            "name": "home_team",
+            "type" : "STRING"
+        },
+        {
+            "name": "image_url",
+            "type" : "STRING"
+        },
+        {
+            "name": "location",
+            "type" : "STRING"
         }
     ]
     EOF
