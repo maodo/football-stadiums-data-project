@@ -29,6 +29,14 @@ def transform_data(data: pd.DataFrame):
     data['description'] = data['description'].apply(lambda x: re.sub("[\(\[].*?[\)\]]", "", x))
     data['description'] = data['description'].apply(lambda x: x.replace('\n',' ').strip())
     data['location'] = data.apply(lambda x: get_geo_loc(x['stadium'],x['city']), axis=1 )
+    # Let's handle empty locations
+    rows_with_empty_locations = data[data.duplicated(['location'])]
+    rows_with_empty_locations['location'] = rows_with_empty_locations.apply(lambda x : get_geo_loc(x['city'],x['country']), axis=1)
+    data.update(rows_with_empty_locations)
+    # Let's handle the remaining rows with None locations
+    rows_with_none_locations = data[data.duplicated(['location'])]
+    rows_with_none_locations['location'] = rows_with_none_locations.apply(lambda x : get_geo_loc(x['stadium'],x['country']), axis=1)
+    data.update(rows_with_none_locations)
     return data
 
 @transformer
