@@ -4,10 +4,11 @@ This is an Data Engineering End to End project. The goal is to extract world sta
 
 Tools used:  
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Terraform](https://img.shields.io/badge/terraform-grey?style=for-the-badge&logo=terraform)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/Mage-green?style=for-the-badge)
- ![Jupyter](https://img.shields.io/badge/jupyter-F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Jupyter](https://img.shields.io/badge/jupyter-F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white)
 <!-- -- Tools : Terraform, Python, Mage, Cloud Storage, Big Query and Power BI  
 -- Extract data from Wikipedia with Python  
 -- Transform with Python  
