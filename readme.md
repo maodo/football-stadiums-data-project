@@ -3,11 +3,11 @@
 This is an Data Engineering End to End project. The goal is to extract world stadiums data from wikipédia and analyze them with a Business Intelligence tool.  
 
 Tools used:  
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  
-![Terraform](https://img.shields.io/badge/terraform-grey?style=for-the-badge&logo=terraform)  
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white) 
-![Static Badge](https://img.shields.io/badge/Mage-green?style=for-the-badge)  
- ![Jupyter](https://img.shields.io/badge/jupyter-F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)  
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Terraform](https://img.shields.io/badge/terraform-grey?style=for-the-badge&logo=terraform)
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Mage-green?style=for-the-badge)
+ ![Jupyter](https://img.shields.io/badge/jupyter-F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 <!-- -- Tools : Terraform, Python, Mage, Cloud Storage, Big Query and Power BI  
 -- Extract data from Wikipedia with Python  
 -- Transform with Python  
