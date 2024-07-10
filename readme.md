@@ -46,9 +46,7 @@ You'll find all the python packages used in the requirements.txt file
 3- Terraform run:  
 
         - Run `terraform plan` to see the provisionning plan   
-
         - Run `terraform apply` to create `Cloud Storage` bukcet and `Big Query dataset and table` 
-
         - When you're done with the project, run `terraform destroy` to delete all the ressources  
 
 4- You can run the experimental notebook to test  
