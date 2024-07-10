@@ -44,7 +44,7 @@ You'll find all the python packages used in the requirements.txt file
 2- [Optionnal] You can change the name of the bucket, specify a region or change the name of the Big Query dataset  in `variables.tf`  
 
 3- Terraform run:  
-        - Run `terraform plan` to see the provisionning plan   
+         - Run `terraform plan` to see the provisionning plan   
         - Run `terraform apply` to create `Cloud Storage` bukcet and `Big Query dataset and table`  
         - When you're done with the project, run `terraform destroy` to delete all the ressources  
 
