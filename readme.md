@@ -29,7 +29,11 @@ Tools used:
 You'll find all the python packages used in the requirements.txt file
 
 1- Create a service account in GCP and generate keys. Save the keys in a folder named `keys` in the project. Rename the file name as `football-gcp-credentials.json`  
-2- [Optionnal] You can change the name of the bucket, specify a region or change the name of the Big Query dataset  in `variables.tf``
+2- [Optionnal] You can change the name of the bucket, specify a region or change the name of the Big Query dataset  in `variables.tf`
+3- Terraform run:
+    - Run `terraform plan` to see the provisionning plan 
+    - Run `terraform apply` to create `Cloud Storage` bukcet and `Big Query dataset and table`
+    - When you're done with the project, run `terraform destroy` to delete all the ressources
 
 
 <!-- SQL Queries :   
