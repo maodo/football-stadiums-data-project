@@ -61,6 +61,10 @@ You'll find all the python packages used in the requirements.txt file
 9- Check in your Cloud Storage and Big Query to see if the data are available
 
 10- You can connect Power BI to Big Query and create your visuals
+
+### Some visuals from Power BI
+
+
 <!-- SQL Queries :   
 -- top 5 stadiums by capacity --  
 -- average capacity by region --  
