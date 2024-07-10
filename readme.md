@@ -1,6 +1,6 @@
 ## World Stadiums End to End Data Project
 
-This is an Data Engineering End to End project. The goal is to extract world stadiums data from wikipédia and analyze them with a Business Intelligence tool.  
+This is an Data Engineering End to End project. The goal is to extract world stadiums data from wikipedia and analyze them with a Business Intelligence tool.  
 
 Tools used:  
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -23,6 +23,7 @@ Tools used:
     - Terraform installed localy  
     - Mage installed on a VM or locally  
     - Python
+    - Power BI
     - And some motivation  
 
 You'll find all the python packages used in the requirements.txt file
