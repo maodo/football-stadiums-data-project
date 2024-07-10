@@ -28,6 +28,9 @@ Tools used:
 
 You'll find all the python packages used in the requirements.txt file
 
+1- Create a service account in GCP and generate keys. Save the keys in a folder named `keys` in the project. Rename the file name as `football-gcp-credentials.json`  
+2- [Optionnal] You can change the name of the bucket, specify a region or change the name of the Big Query dataset  in `variables.tf``
+
 
 <!-- SQL Queries :   
 -- top 5 stadiums by capacity --  
