@@ -20,7 +20,7 @@ Tools used:
 ### How to run this project
 #### Prerequisities
     - A Google Cloud Platform account  
-    - Terraform installed localy  
+    - Terraform installed locally  
     - Mage installed on a VM or locally  
     - Python
     - Power BI
