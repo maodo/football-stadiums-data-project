@@ -17,6 +17,17 @@ Tools used:
 ![](./media/Data-Stack-Stadium.png)
 
 
+- Terraform : IAC for Cloud ressources creation
+
+- Cloud Storage : Data lake for storing the scraped data
+
+- Big Query : Datawarehouse for storing the processed data
+
+- Mage-ai : Pipeline orchestrator
+
+- Power BI : For visualizing the data
+
+
 ### How to run this project
 #### Prerequisities
     - A Google Cloud Platform account  
@@ -29,13 +40,27 @@ Tools used:
 You'll find all the python packages used in the requirements.txt file
 
 1- Create a service account in GCP and generate keys. Save the keys in a folder named `keys` in the project. Rename the file name as `football-gcp-credentials.json`  
+
 2- [Optionnal] You can change the name of the bucket, specify a region or change the name of the Big Query dataset  in `variables.tf`  
+
 3- Terraform run:  
     - Run `terraform plan` to see the provisionning plan   
     - Run `terraform apply` to create `Cloud Storage` bukcet and `Big Query dataset and table`  
     - When you're done with the project, run `terraform destroy` to delete all the ressources  
 
+4- You can run the experimental notebook to test  
 
+5- Run `mage start stadiums-pipeline` to start the mage server `localhost:6789` or `your-vm-ip-address:6789` 
+
+6- Create two pipelines in mage : `wiki-to-gcs` and `gcs-to-bq` pipelines
+
+7- For each pipeline, copy the code from respective folders in the project and past it in the concerned file
+
+8- Now run your pipelines in mage server in the mage ui and see the magic happen
+
+9- Check in your Cloud Storage and Big Query to see if the data are available
+
+10- You can connect Power BI to Big Query and create your visuals
 <!-- SQL Queries :   
 -- top 5 stadiums by capacity --  
 -- average capacity by region --  
