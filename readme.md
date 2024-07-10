@@ -16,11 +16,23 @@ Tools used:
 ### Data Architecture
 ![](./media/Data-Stack-Stadium.png)
 
-SQL Queries :   
+
+### How to run this project
+#### Prerequisities
+    - A Google Cloud Platform account  
+    - Terraform installed localy  
+    - Mage installed on a VM or locally  
+    - Python
+    - And some motivation  
+
+You'll find all the python packages used in the requirements.txt file
+
+
+<!-- SQL Queries :   
 -- top 5 stadiums by capacity --  
 -- average capacity by region --  
 -- count of stadiums in each country--  
 -- stadium ranking within each region--  
 -- top 3 stadium ranking within each region--  
 -- stadiums with capacity above average --  
--- stadiums with the closest capacity to regional median--  
+-- stadiums with the closest capacity to regional median--   -->
